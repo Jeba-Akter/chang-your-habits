@@ -1,0 +1,840 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Inter;
+}
+header{
+    color: antiquewhite;
+    background: #000;
+}
+header nav{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+    .content-1{
+      
+        color: rgb(255, 0, 0);
+    }
+.content-2{
+    color: white;
+    border: 2px solid green;
+    border-radius: 50px ;
+    
+}
+
+.content-2 a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container
+.content h1{
+    padding-bottom: 20px;
+}
+.container
+.content button{ 
+    margin-top: 20px;
+    background-color: #570c0f;
+    color: antiquewhite;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 20px 20px;
+
+}
+.container .img{
+    position: relative;
+}
+.container
+.img
+.card-section-1{
+    position: absolute;
+    /* border: 2px solid #ff0000; */
+    top: 180px;
+    right: -50px;
+    padding: 15PX;
+    border-radius: 10PX;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+
+}
+.container
+.img
+.card-section-2{
+    position: absolute;
+    /* border: 2px solid #ff0000; */
+    display: flex;
+    align-items: center;
+    top: 380px;
+    left: -50px;
+    padding: 15PX;
+    border-radius: 10PX;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+
+}
+.container
+.img
+.card-section-2
+.circle{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background: red;
+    margin-right: 10px;
+
+}
+  
+
+
+main{
+    background: #000;
+    padding-bottom: 30px;
+}
+.main-container{
+    color: aliceblue;
+    font-family: inter;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.main-container
+.img-section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-container
+.img-section img{
+    border-radius: 100px;
+}
+.container-2{
+    font-family: inter;
+    background: rgba(119, 81, 81, 0.103);
+    color: aliceblue;
+    border-radius: 20px;
+    width: 80%;
+    align-items: center;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container-2
+.content{
+    margin-left: 30px;
+}
+
+.container-2
+.img{
+    margin: 30px 30px 30px 80px;
+    width: 50%;
+}
+.container-2
+.img img{
+    border-radius: 30px;
+    width: 100%;
+}
+.container-3{
+    font-family: inter;
+    margin:  50px auto;
+    width: 80%;
+    color: aliceblue;
+}
+.images-container
+.img-section-1{
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+    /* .images1 */
+.images-container
+.img-section-1
+.images1{
+    
+    width: 25%;
+    height: 220px;
+    background-image: url(./images/exercise1.jpg);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-1
+.images1
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 227, 206, 0.4);
+    position: relative;
+}
+.images-container
+.img-section-1
+.images1
+.img h1{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+/* .images2-style */
+.images-container
+.img-section-1
+.images2{
+    
+    width: 48%;
+    height: 220px;
+    background-image: url(./images/exercise2.png);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-1
+.images2
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(167, 43, 38, 0.5);
+    position: relative;
+}
+.images-container
+.img-section-1
+.images2
+.img h1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+} 
+/* images3 style  */
+.images-container
+.img-section-1
+.images3{
+    
+    width: 27%;
+    height: 220px;
+    background-image: url(./images/exercise3.png);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-1{
+    margin-top: 50px;
+    display: flex;
+}
+
+    /* .images1 */
+.images-container
+.img-section-1
+.images1{
+    
+    width: 25%;
+    height: 220px;
+    background-image: url(./images/exercise1.jpg);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-1
+.images1
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 227, 206, 0.4);
+    position: relative;
+}
+.images-container
+.img-section-1
+.images1
+.img h1{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+/* .images2-style */
+.images-container
+.img-section-1
+.images2{
+    
+    width: 48%;
+    height: 220px;
+    background-image: url(./images/exercise2.png);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-1
+.images2
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(167, 43, 38, 0.5);
+    position: relative;
+}
+.images-container
+.img-section-1
+.images2
+.img h1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+} 
+/* images3 style  */
+.images-container
+.img-section-1
+.images3{
+    
+    width: 27%;
+    height: 220px;
+    background-image: url(./images/exercise3.png);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-1
+.images3
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 28, 0.5);
+    position: relative;
+}
+.images-container
+.img-section-1
+.images3
+.img h1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+/* .img-section-2 style  */
+.images-container
+.img-section-2{
+    /* margin-top: 50px; */
+    display: flex;
+}
+
+    /* .images4-style */
+.images-container
+.img-section-2
+.images4{
+    
+    width: 45%;
+    height: 230px;
+    background-image: url(./images/exercise4.png);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-2
+.images4
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 23, 26, 0.5);
+    position: relative;
+}
+.images-container
+.img-section-2
+.images4
+.img h1{
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+/* .images5-style */
+.images-container
+.img-section-2
+.images5{
+    
+    width: 25%;
+    height: 230px;
+    background-image: url(./images/exercise5.jpg);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-2
+.images5
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(89, 182, 13, 0.5);
+    position: relative;
+}
+.images-container
+.img-section-2
+.images5
+.img h1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+} 
+/* images6 style  */
+.images-container
+.img-section-2
+.images6{
+    
+    width: 30%;
+    height: 230px;
+    background-image: url(./images/exercise6.jpg);
+    background-position: center ;
+    background-size: cover;
+    /* border: 2px solid green; */
+    
+} 
+.images-container
+.img-section-2
+.images6
+.img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background: rgba(117, 154, 250, 0.5);
+    position: relative;
+}
+.images-container
+.img-section-2
+.images6
+.img h1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    /* right: 10px; */
+}
+
+.calculator-section{
+    width: 40%;
+    color: #8f8f8f;
+    /* border: 2px solid green; */
+    /* text-align: center; */
+    align-items: center;
+    margin: auto;
+   padding: 100px 10px 50px 10px;
+}
+.calculator-section
+h1{
+    font-size: 30px;
+    padding-bottom:30px ;
+    color: rgba(255, 255, 255, 0.89);
+}
+.calculate-section{
+    background-color: #212121;
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    color: #8f8f8f;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.calculate-section
+.chart
+ {
+    width: 30%;
+    /* border: 2px solid green; */
+}
+.calculate-section
+.calculate
+ {
+    width: 60%;
+    margin-right: 30px;
+}
+.calculate-section
+.calculate
+span{
+    display: block;
+    
+}
+
+.calculate-section
+.chart table th, td {
+    border: 2px solid hsla(0, 0%, 100%, 0.281);
+    text-align: left;
+    padding: 10px 70px 10px 10px;
+
+}
+
+.calculate-section
+.chart table th{
+    color: white;
+}
+.calculate-section
+h1{
+    color: white;
+    padding: 30px 0px 30px 0px;
+}
+.input-section{
+    margin-top: 30px;
+    width: 550px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-right: 20%; */
+    /* border: 2px solid green; */
+}
+.input-section
+input, select{
+    font-size: 20px;
+    padding: 8px 5px;
+    margin: 8px 8px;
+    border-radius: 10px;
+    background: rgb(64, 61, 61);
+    border: none;
+    color: #8f8f8f;
+
+}
+.input-section
+#activity{
+    grid-column: span 2;
+}
+.calculate-section
+.calculate
+.cal-btn{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background:  #e6523c;
+    border: none;
+    color: white;
+    
+}
+.tem-section
+.tem{
+    width: 60%;
+    margin: 50px auto;
+    color: #8f8f8f;
+}
+.tem-section
+.tem h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tem-section-1{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+/* .tem-section-1 .images1 style  */
+.tem-section-1
+.images1{
+    /* width: 32%; */
+    height: 350px;
+    background-image: url(./images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+.tem-section-1
+.images1
+.img-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+/*  .images2 style  */
+.tem-section-1
+.images2{
+    /* width: 32%; */
+    height: 350px;
+    background-image: url(./images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+.tem-section-1
+.images2
+.img-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+
+}
+/*  .images3 style  */
+.tem-section-1
+.images3{
+    height: 350px;
+    background-image: url(./images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+   
+}
+.tem-section-1
+.images3
+.img-3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+
+}
+
+/* .images4 style  */
+.tem-section-1
+.images4{
+    height: 350px;
+    background-image: url(./images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+     
+}
+.tem-section-1
+.images4
+.img-4{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+
+}
+/* .images5 style  */
+.tem-section-1
+.images5{
+    height: 350px;
+    background-image: url(./images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+    
+   
+}
+.tem-section-1
+.images5
+.img-5{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+
+}
+/* images6 style  */
+.tem-section-1
+.images6{
+    height: 350px;
+    background-image: url(./images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+ 
+}
+.tem-section-1
+.images6 
+.img-6{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.tem-section
+.name{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+.tem-section
+.name
+p{
+    color: #8f8f8f;
+
+}
+/* .price-section-style  */
+.price-section{
+    margin: auto;
+    padding-bottom: 30px;
+    width: 80%;
+    background:#1a1a1a;
+    border-radius: 20px;
+        color: white;
+}
+.pricing-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0px 20px;
+}
+.price-section
+.price-title h1{
+    text-align: center;
+    /* border: 2px solid green; */
+    margin: 30px 0px;
+    padding: 30px 0px 30px 0px;
+    font-size: 70px;
+}
+.pricing-section
+.price{
+    width: 80%;
+    padding: 30px 0px;
+    border-left: 2px solid white;
+    border-radius: 20px;
+}
+.pricing-section
+.price h1{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    color: #e6523c;
+    font-size: 20px;
+    border-bottom: 2px solid #e6523c;
+}
+.pricing-section
+.price h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30px 0px  10px 50px;
+}
+.pricing-section
+.price span{
+    font-size: 15px;
+}
+.pricing-section
+.price ul{
+    padding:20px 0px 20px 30px;
+    
+}
+.pricing-section
+.price ul li{
+    padding:10px 10px;
+    
+}
+.pricing-section
+.price .btn {
+    margin: 40px 0px 0px 20px;
+    font-size: 25px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    background: #1a1a1a;
+    color: white;
+    border: 2px solid white;
+}
+.pricing-section
+.price button {
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    background: #1a1a1a;
+    color: white;
+    border: 2px solid white;
+}
+footer{
+    background: #1a1a1a;
+    color: aliceblue;
+    /* margin-top: 30px; */
+    padding-top: 30px;
+}
+.fitness-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.fitness-section
+.fitness1{
+    width: 32%;
+    /* border: 2px solid green; */
+}
+.fitness-section
+.fitness1 h1{
+    font-size: 70px;
+    color: #e6523c;
+   padding-bottom: 20px;
+
+}
+
+.fitness-section
+.fitness2 ul li{
+    padding: 10px 0px;
+}
+.fitness-section
+.fitness3 ul li{
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
